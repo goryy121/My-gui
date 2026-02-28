@@ -20,7 +20,7 @@ local mainText = Instance.new("TextLabel")
 mainText.Size = UDim2.new(0.9, 0, 0.4, 0)
 mainText.Position = UDim2.new(0.05, 0, 0.25, 0)
 mainText.BackgroundTransparency = 1
-mainText.Text = "click vào copy"
+mainText.Text = "click vào copy để lấy script"
 mainText.TextColor3 = Color3.new(1,1,1)
 mainText.TextScaled = true
 mainText.Font = Enum.Font.GothamBold
@@ -30,7 +30,7 @@ mainText.Parent = frame
 local label = Instance.new("TextLabel")
 label.Size = UDim2.new(1, 0, 0.3, 0)
 label.Position = UDim2.new(0, 0, 0, 0)
-label.Text = "GUI của tao"
+label.Text = "Geming"
 label.TextColor3 = Color3.new(1,1,1)
 label.BackgroundTransparency = 1
 label.Parent = frame
@@ -56,7 +56,7 @@ copyButton.Parent = frame
 
 copyButton.MouseButton1Click:Connect(function()
     if setclipboard then
-        setclipboard("https://example.com")
+        setclipboard("https://link4m.com/2w1Ua")
     else
         warn("Executor không hỗ trợ setclipboard")
     end
