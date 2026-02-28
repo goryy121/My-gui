@@ -65,4 +65,3 @@ end)
 
 
 
-Code đây, mày làm giúp tao luôn được không
